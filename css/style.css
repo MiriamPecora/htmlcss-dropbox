@@ -75,7 +75,7 @@ h1 {
     background-color: pink;
 }
 
-.h-200 {
+.h-700 {
     height: 700px;
 }
 
@@ -114,4 +114,8 @@ header img {
 
 .border {
    border: solid 1px rgb(29, 28, 28);
+}
+
+#partner-img {
+    width: 500px;
 }
