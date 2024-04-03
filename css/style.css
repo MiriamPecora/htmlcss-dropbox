@@ -47,7 +47,7 @@ h2 {
 .container {
     max-width: 50%;
     margin: 0 auto;
-    background-color: rgb(245, 211, 198);
+    
 }
 
 .row {
@@ -78,7 +78,6 @@ h2 {
 
 .col-33 {
     width: calc(100% / 3 - 10px);
-    background-color: lightgreen;
 }
 
 .col-20 {
@@ -122,6 +121,7 @@ h2 {
     font-size: 15px;
 }
 
+
 /* MARGINI */
 
 .margin {
@@ -130,6 +130,10 @@ h2 {
 
 .m-top-160 {
     margin-top: 160px;
+}
+
+.m-top-100{
+    margin-top: 100px;
 }
 
 .m-top-40 {
@@ -181,10 +185,10 @@ h2 {
 
 
 
-/* MISURE IMG */
+/* MISURE E ALLINEAMENTI IMG */
 
-.w-200{
-    width: 200px;
+.w-250{
+    width: 250px;
 }
 
 header img {
@@ -198,6 +202,10 @@ header img {
 
 #partner-img {
     width: 500px;
+}
+
+.centered-imgs {
+    text-align: center;
 }
 /* STYLE */
 
@@ -249,4 +257,6 @@ header img {
     border-left: none;
     border-right: none;
 }
+
+
 
