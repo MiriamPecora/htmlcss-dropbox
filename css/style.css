@@ -36,7 +36,7 @@ h2 {
 
 .container-full {
     max-width: 100%;
-    background-color: blanchedalmond;
+    background-color: rgb(247, 247, 247);
 }
 
 .container-large {
@@ -86,7 +86,6 @@ h2 {
 
 .col-15 {
     width: 15%;
-    background-color: aqua;
 }
 
 
@@ -106,6 +105,15 @@ h2 {
 
 /* UTILITY */
 
+.top-col{
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 /* FLEX */
 
 .d-flex-gap {
@@ -120,7 +128,6 @@ h2 {
     gap: 15px;
     font-size: 15px;
 }
-
 
 /* MARGINI */
 
@@ -183,6 +190,22 @@ h2 {
     padding: 30px;
 }
 
+/* SEZIONE QUADRATI */
+
+.square{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 
 /* MISURE E ALLINEAMENTI IMG */
@@ -207,27 +230,55 @@ header img {
 .centered-imgs {
     text-align: center;
 }
+
+.content-square img {
+    width: 250px;
+}
+
+.square-section img {
+    width: 60%;
+    filter: invert();
+    
+}
+
 /* STYLE */
+
+/* BACKGROUND COLORS */
+
+.green-bg{
+    background-color: green;
+    border: lightgreen 20px solid;
+}
+
+.ruby-bg{
+    background-color: darkred;
+}
+
+.azure-bg {
+    background-color: rgb(0, 140, 255);
+}
+
+.light-red-bg {
+    background-color: rgb(247, 40, 40);
+}
+
+.red-bg {
+    background-color: rgb(236, 8, 8);
+}
+
+.blue-bg {
+    background-color: rgb(4, 4, 136);
+}
+
+.gold-bg {
+    background-color: rgb(247, 202, 88);
+}
 
 .light-blue-bg {
     background-color: lightblue;
 }
 
-.border {
-   border: solid 1px rgb(29, 28, 28);
-}
-
-
-.bg-black-color-white {
-    background-color: black;
-    color: white;
-}
-
-.header-link {
-    color: rgb(85, 84, 84);
-    font-size: 15px;
-    text-decoration: none;
-}
+/* BOTTONI */
 
 .blue-btn {
     background-color: rgb(0, 63, 236);
@@ -244,19 +295,36 @@ header img {
     font-size: 14px;
 }
 
+/* BORDI */
+
+.border {
+   border: solid 1px rgb(29, 28, 28);
+}
+
+/* TESTO */
+
+.bg-black-color-white {
+    background-color: black;
+    color: white;
+}
+
+.header-link {
+    color: rgb(85, 84, 84);
+    font-size: 15px;
+    text-decoration: none;
+}
+
 .txt-bold-40{
     font-weight: 900;
     font-size: 40px;
 }
 
-.top-col{
-    text-align: center;
-    padding: 5px;
-    font-size: 15px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+.txt-size-70 {
+    font-size: 70px;
 }
+
+
+
 
 
 
