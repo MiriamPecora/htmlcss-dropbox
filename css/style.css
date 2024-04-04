@@ -69,7 +69,6 @@ h2 {
 
 .col-50 {
     width: 50%;
-    background-color: orange;
 }
 
 .col-40 {
@@ -190,6 +189,10 @@ h2 {
     padding: 30px;
 }
 
+.p-90 {
+    padding: 90px;
+}
+
 /* SEZIONE QUADRATI */
 
 .square{
@@ -301,6 +304,20 @@ header img {
    border: solid 1px rgb(29, 28, 28);
 }
 
+.border-none {
+    border: none;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+
+
 /* TESTO */
 
 .bg-black-color-white {
@@ -321,6 +338,16 @@ header img {
 
 .txt-size-70 {
     font-size: 70px;
+}
+
+.txt-purple-50 {
+    color: rgb(75, 2, 75);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.txt-size-20{
+    font-size: 20px;
 }
 
 
